@@ -1,0 +1,58 @@
+p {
+  font-family: Arial;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-weight: bold;
+}
+
+a {
+  font-family: Arial;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-weight: bold;
+  color: black;
+}
+
+a:link {
+  color: inherit;
+}
+
+a:visited {
+  color: inherit;
+}
+
+a:active {
+  color: inherit;
+}
+
+html {
+  width: 100%
+}
+
+.nome-artista {
+  font-size: 8.8vw;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 0px;
+}
+
+.link-spotify {
+  cursor: pointer;
+  display: inline-block;
+  font-size: 4.5vw;
+}
+
+.link-spotify:hover {
+  text-decoration: underline;
+}
+
+.link-instagram {
+  cursor: pointer;
+  display: inline-block;
+  float: right;
+  font-size: 4.5vw;
+}
+
+.link-instagram:hover {
+  text-decoration: underline;
+}
